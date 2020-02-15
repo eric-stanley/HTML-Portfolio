@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,700i&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light: #ffffff;
+  --dark: #181b24;
+  --grey: #899495;
+  --orange: #fc5130;
+  --section-grey: #f2f2f2;
+  --letter-space: 0.15rem;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+/* nav start */
+.nav {
+  background: var(--light);
+}
+/* nav end */
+
+/* header start */
+.header {
+  min-height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("../img/header-bcg.jpeg") center/cover fixed no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+/* header end */
+
+/* banner start */
+.banner {
+  /* as flex child */
+  flex: 1 0 auto;
+  /* as flex parent */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: var(--dark);
+  text-align: center;
+  padding-bottom: 4rem;
+  font-weight: 700;
+}
+
+.banner__title {
+  font-size: 4rem;
+  letter-spacing: var(--letter-space);
+  margin-bottom: 0.5rem;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.banner__jobs {
+  letter-spacing: var(--letter-space);
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: var(--light);
+}
+/* banner end */

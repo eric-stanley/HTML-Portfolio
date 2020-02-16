@@ -130,6 +130,7 @@ body {
   border: 2px solid var(--dark);
   transition: all 0.5s linear;
   margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .dark-btn {
@@ -250,3 +251,56 @@ body {
 }
 
 /* services end */
+
+/* numbers start */
+
+.numbers {
+  padding: 3rem 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../img/numbers-bcg.jpeg") center/cover no-repeat fixed;
+  color: var(--light);
+}
+
+.numbers__center {
+  max-width: 95vw;
+  margin: 2rem auto;
+}
+
+.numbers__single-number {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.numbers__single-number-icon {
+  font-size: 3rem;
+}
+
+.numbers__single-number-text {
+  font-size: 2rem;
+  letter-spacing: var(--letter-space);
+  margin: 0.5rem 0;
+}
+
+.numbers__single-number-title {
+  text-transform: uppercase;
+  letter-spacing: var(--letter-space);
+}
+
+@media screen and (min-width: 576px) {
+  .numbers__center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .numbers__single-number {
+    flex: 0 0 calc(50% - 0.5rem);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .numbers__single-number {
+    flex: 0 0 calc(25% - 0.5rem);
+  }
+}
+/* numbers end */

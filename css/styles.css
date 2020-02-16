@@ -151,4 +151,22 @@ body {
   background: var(--dark);
   color: var(--light);
 }
+
+@media screen and (min-width: 992px) {
+  .about__center {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-info,
+  .about-img {
+    flex: 0 0 calc(50% - 1rem);
+  }
+
+  .about-info {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
 /* about end */

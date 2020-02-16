@@ -13,6 +13,7 @@
   --orange: #fc5130;
   --section-grey: #f2f2f2;
   --letter-space: 0.15rem;
+  --section-white: #ffffff;
 }
 
 body {
@@ -67,3 +68,87 @@ body {
   color: var(--light);
 }
 /* banner end */
+
+/* about start */
+.about {
+  padding: 2rem 0;
+  background: var(--section-white);
+}
+
+.about__center {
+  max-width: 90vw;
+  margin: 2rem auto;
+}
+
+.about-img {
+  margin: 3rem 0;
+  position: relative;
+}
+
+.about-img__photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.about-img:before {
+  content: "";
+  background: var(--dark);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+}
+
+.about-info {
+  margin: 3rem 0;
+}
+
+.about-info__title {
+  font-size: 3rem;
+  text-transform: capitalize;
+  letter-spacing: var(--letter-space);
+  background: url("../img/title-bcg.svg") no-repeat;
+}
+
+.about-info__text {
+  color: var(--grey);
+  line-height: 1.5;
+  font-size: 1.2rem;
+  margin: 3rem 0;
+}
+
+.about-info__single-link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  letter-spacing: var(--letter-space);
+  text-transform: capitalize;
+  border: 2px solid var(--dark);
+  transition: all 0.5s linear;
+  margin-right: 1rem;
+}
+
+.dark-btn {
+  background: var(--dark);
+  color: var(--light);
+}
+
+.dark-btn:hover {
+  background: var(--light);
+  color: var(--dark);
+}
+
+.light-btn {
+  background: var(--light);
+  color: var(--dark);
+}
+
+.light-btn:hover {
+  background: var(--dark);
+  color: var(--light);
+}
+/* about end */

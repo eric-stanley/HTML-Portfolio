@@ -34,12 +34,12 @@
 }
 
 .nav__logo {
-  max-height: 6.5vh;
+  max-height: 1.5rem;
   align-self: center;
 }
 
 .nav__btn {
-  font-size: 3rem;
+  font-size: 1.5rem;
   align-self: center;
   color: var(--dark);
   cursor: pointer;
@@ -89,6 +89,10 @@
   .nav__header {
     border: none;
     padding: 0rem 1rem;
+  }
+
+  .nav__logo {
+    max-height: 2.5rem;
   }
 
   .nav__btn {

@@ -72,6 +72,7 @@
   height: 0;
   overflow: hidden;
   transition: all 0.5s linear;
+  overflow-y: auto;
 }
 
 .show__links {

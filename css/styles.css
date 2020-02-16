@@ -35,6 +35,7 @@
 
 .nav__logo {
   max-height: 10vh;
+  align-self: center;
 }
 
 .nav__btn {

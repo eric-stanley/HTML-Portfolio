@@ -34,7 +34,7 @@
 }
 
 .nav__logo {
-  max-height: 10vh;
+  max-height: 6.5vh;
   align-self: center;
 }
 
@@ -88,6 +88,7 @@
 
   .nav__header {
     border: none;
+    padding: 0rem 1rem;
   }
 
   .nav__btn {
@@ -544,10 +545,10 @@
 .footer {
   background: var(--dark);
   padding: 1rem 0;
-  position: fixed;
+  /* position: fixed;
   bottom: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 1; */
 }
 
 .footer__icons {

@@ -9,4 +9,5 @@ Install live server from VS Code extensions and right click `index.html` file an
 ## Demo
 
 https://html-flexbox-portfolio.netlify.com/ <br />
-https://html-flexbox-portfolio.onrender.com/
+https://html-flexbox-portfolio.onrender.com/ <br />
+https://html-flexbox-portfolio.vercel.app/
